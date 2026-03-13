@@ -30,7 +30,7 @@ BANNER = r"""
  |____/ \__, |___/_| \_|\___|\__| |____/ \___\___/ \__,_|\__|
         |___/
 
-SysNet Scout v0.3.0
+SysNet Scout v1.0.0
 Made by GitHub user pinkythegawd (MikePinku)
 """.strip()
 
