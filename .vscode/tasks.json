@@ -1,0 +1,28 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run SysNet Scout tests",
+			"type": "shell",
+			"command": "${env:USERPROFILE}\\.local\\bin\\uv.exe",
+			"args": [
+				"run",
+				"--python",
+				"3.12",
+				"-m",
+				"unittest",
+				"discover",
+				"-s",
+				"tests",
+				"-v"
+			],
+			"options": {
+				"env": {
+					"PYTHONPATH": "src"
+				}
+			},
+			"isBackground": false,
+			"group": "test"
+		}
+	]
+}

@@ -1,0 +1,53 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "SysNet Scout: info",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "sysnet_scout",
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}/src"
+      },
+      "args": [
+        "info"
+      ],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "SysNet Scout: scan-hosts",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "sysnet_scout",
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}/src"
+      },
+      "args": [
+        "scan-hosts",
+        "--cidr",
+        "192.168.1.0/24"
+      ],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "SysNet Scout: scan-ports",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "sysnet_scout",
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}/src"
+      },
+      "args": [
+        "scan-ports",
+        "--host",
+        "127.0.0.1",
+        "--ports",
+        "22,80,443"
+      ],
+      "console": "integratedTerminal"
+    }
+  ]
+}
