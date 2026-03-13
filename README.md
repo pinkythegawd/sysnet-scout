@@ -2,7 +2,7 @@
 
 Cross-platform System Information and Network Scanner Utility.
 
-Made by GitHub user **pinkythegawd (MikePinku)**.
+Made by **pinkythegawd (MikePinku)**.
 
 ## Features
 
